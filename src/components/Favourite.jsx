@@ -16,7 +16,13 @@ export const Favourite = ({ movie }) => {
         <>
             <div>
                 <h5 className="lg:ml-6 pt-8 text-center text-4xl font-bold leading-none text-gray-900 dark:text-white">
-                    Favourites
+                 {movie == null ? (
+                    <div className='h-screen pt-10'>
+                        No hay Favoritos
+                    </div>
+                 ) : ( 
+                    'Favourites'
+                 )}   
                 </h5>
             </div>
             <div className='container mx-auto space-y-2 content-center pt-6 gap-2 grid lg:grid-cols-3  xl:grid-cols-3 2xl:grid-cols-4
@@ -29,7 +35,7 @@ export const Favourite = ({ movie }) => {
                     movieFiltered.map(movie =>
                         <Card movie = { movie } key = { movie.id } />
                 )
-           
+                       
                 )
         }
             </div>

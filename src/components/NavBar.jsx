@@ -28,9 +28,9 @@ export const NavBar = () => {
       <div >
       <nav className="bg-[url('/src/assets/images/wp5435701.jpg')] h-72  border-gray-200 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div className="container w-11/12 flex flex-wrap justify-between items-center mx-auto">
-          <Link to="/" className="flex items-center active:text-pink-700" > 
-            <span className="text-4xl self-center text-neutral-50 font-semibold whitespace-nowrap dark:text-white">
-              Movie
+          <Link to="/" className="flex items-center active:text-orange-500" > 
+            <span className="text-4xl self-center text-orange-500 font-semibold whitespace-nowrap dark:text-white">
+              Movie Api
             </span>
           </Link>
           <div className="flex md:order-2">
@@ -145,7 +145,7 @@ export const NavBar = () => {
             <ul className="flex flex-col p-4 mt-4  rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link to="/"
-                  className="text-lg block py-2 pr-4 pl-3 text-neutral-400 bg-neutral-50 rounded md:bg-transparent md:text-pink-700 md:p-0 dark:text-white active:text-white-700 "
+                  className="text-lg block py-2 pr-4 pl-3 text-neutral-400 bg-neutral-50 rounded md:bg-transparent md:text-orange-200 md:p-0 dark:text-white active:text-white-700 "
                   aria-current="page"
                 >
                   Home
@@ -154,7 +154,7 @@ export const NavBar = () => {
               <li>
                 <Link to="/favourite"
                   
-                  className="text-lg block py-2 pr-4 pl-3 text-neutral-50 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 active:text-pink-700 "
+                  className="text-lg block py-2 pr-4 pl-3 text-neutral-50 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-200 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 active:text-pink-700 "
                 >
                   Favourite
                 </Link>

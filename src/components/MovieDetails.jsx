@@ -13,19 +13,21 @@ import { myMovie } from '../function/funcion'
   return (
     
     <>
-     <div className='h-4'>
-     <h5 className="lg:ml-6 text-center text-4xl font-bold leading-none text-gray-900 dark:text-white pt-8">
+     <div className='h-4 xs:flex xs:items-center xs:justify-center xs:py-8'>
+     <h5 className="py-8 lg:ml-6 text-center text-4xl font-bold leading-none text-gray-900 dark:text-white pt-8">
           Movie
         </h5>      
     </div>
-     <div className='grid place-items-center h-screen'>
+     <div className='grid place-items-center'>
          {mimovie != null ? (
          
             <div className=''>
               <div className=' white:bg-gray-400  shadow-pink-500 shadow dark:bg-gray-800 dark:border-gray-700 rounded-lg border'>
                  <a
                      href="#"
-                     className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                     className="flex flex-col items-center bg-white rounded-lg border shadow-md
+                      md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700
+                       dark:bg-gray-800 dark:hover:bg-gray-700"
                  >
                       <img
                          className="rounded-t-lg mx-auto max-w-xs h-auto px-2"

@@ -4,7 +4,14 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-        <footer className="pt-10 h-30 mt-10 bg-gray-300 rounded-lg shadow md:flex md:items-center md:justify-between md:pb-6 dark:bg-gray-800">
+        <footer className="flex pt-10 h-30 mt-10 bg-gray-300 rounded-lg shadow md:pb-6       
+                        md:items-center md:justify-center
+                        xs:items-center xs:justify-center
+                        lg:items-center lg:justify-center
+                        xl:items-center xl:justify-center
+                        2xl:items-center 2xl:justify-center
+                       ">
+  <div className=''>
   <span className="text-sm text-dark-500 sm:text-center dark:text-white-400">
     © 2022{" "}
     <Link to='/' className="hover:underline">
@@ -12,24 +19,10 @@ const Footer = () => {
     </Link>
     . All Rights Reserved.
   </span>
-  <ul className="flex flex-wrap items-center mt-3 mr-4 text-sm text-dark-500 dark:text-gray-400 sm:mt-0">
-    <li>
-      <Link to='/home' className="mr-4 hover:underline md:mr-6 text-dark-500">
-        Home
-      </Link>
-    </li>
-    <li>
-      <Link to='/favourite' href="#" className="mr-4 hover:underline md:mr-6">
-        Favourite
-      </Link>
-    </li>
-   
-    <li>
-      <Link to="/home" className="hover:underline">
-        Contact
-      </Link>
-    </li>
-  </ul>
+  </div>
+  <div className=''>
+  
+  </div>
 </footer>
 
     </>
